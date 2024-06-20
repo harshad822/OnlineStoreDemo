@@ -1,0 +1,86 @@
+﻿@{
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+<div class="container-fluid pt-4 default-dashboard">
+    <div class="row">
+        <div class="col-xxl-12">
+            <div class="card">
+                <div class="card-header card-no-border pb-0">
+                    <div class="header-top">
+                        <h4>Order History</h4>
+                    </div>
+                </div>
+                <div class="card-body escrow">
+                    <div class="table-responsive custom-scrollbar p-2">
+                        <table class="display" id="orderTable" style="width: 100%">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Total Price</th>
+                                    <th>Status</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="modal fade" id="orderDetailsModal" tabindex="-1" aria-labelledby="orderDetailsModalLabel" aria-hidden="true">
+    <div class="modal-dialog" style="max-width:850px !important;">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="orderModalLabel">View Order Details</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Order Number</h3>
+                        <p id="orderId"></p>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Order Date</h3>
+                        <p id="orderDate"></p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>User Name</h3>
+                        <p id="userName">@Context.Session.GetString("_SessionUsername")</p>
+                    </div>
+                </div>
+                <h2 class="h4">Order Items</h2>
+                <div class="table-responsive custom-scrollbar p-2">
+                    <table class="display" id="orderItemsTable" style="width: 100%">
+                        <thead>
+                            <tr>
+                                <th>Product Name</th>
+                                <th>Quantity</th>
+                                <th>Price</th>
+                                <th>Total</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="row">
+                    <div class="col-md-12 d-flex justify-content-end">
+                        <h2 class="h4">Grand Total: <span id="grandTotal"></span></h2>
+                    </div>
+                </div>
+                <hr />
+                <p class="text-center mb-0">Thank you for your order!</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<script src="~/js/OrderJs.js"></script>

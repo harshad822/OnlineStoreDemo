@@ -1,0 +1,649 @@
+@media (max-width: 1399.98px) {
+  .home-page .hero h1 {
+    font-size: 62px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #homecarousel .carousel-inner {
+    padding-left: 50px;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .home-page .hero h1 {
+    font-size: 52px;
+  }
+  .home-page .hero .btn {
+    padding: 16px 32px;
+  }
+  .price-circle.first {
+    margin-left: -60px;
+    padding-left: 30px;
+  }
+  .price-circle {
+    height: 335px;
+    width: 335px;
+  }
+  .price-circle.last {
+    margin-right: -60px;
+    padding-right: 30px;
+  }
+  .how-the-fund .first-block {
+    font-size: 50px;
+  }
+  .how-it-helps img {
+    margin-top: -40px;
+  }
+  .fund-vision .contributes img.arrow-point {
+    width: 12%;
+  }
+  .pricing-nav .nav-link {
+    min-width: 222px;
+  }
+  .pricing-tabcontent .pricing-box .price h3 {
+    font-size: 28px;
+  }
+  .pricing-tabcontent .pricing-box .price .savings,
+  .pricing-tabcontent .pricing-box .plan-btn {
+    font-size: 16px;
+  }
+  .pricing-tabcontent .pricing-box .features-list ul li,
+  .pricing-box .r-verification h5,
+  .pricing-box .r-verification span {
+    font-size: 14px;
+  }
+  .pricing-nav .title {
+    font-size: 20px;
+  }
+  .pricing-tabcontent .pricing-show {
+    gap: 20px;
+  }
+  .pricing-tabcontent .pricing-box {
+    padding: 10px;
+  }
+    .pricing-nav {
+        margin-right: 1rem !important;
+    }
+
+    .pricing-tabcontent .pricing-box .features-list {
+        margin-top: 80px
+    }
+    .pricing-tabcontent .pricing-box.growth .features-list .functions {
+        padding: 0;
+    }
+}
+
+@media (max-width: 1024.98px) {
+  .pricing-plans-bg {
+    background-size: 80%;
+  }
+}
+
+@media (max-width: 991.98px) {
+  .navbar {
+    width: auto !important;
+  }
+  .header .logo {
+    margin-right: auto;
+  }
+  .dropdown-menu.show {
+    position: relative;
+    top: auto;
+  }
+  .navbar a.nav-link,
+  .navbar a.nav-link:focus {
+    padding: 10px 30px;
+    color: #080808;
+  }
+  .navbar-mobile .navbar-nav {
+    display: block;
+  }
+  .price-circle.first,
+  .price-circle.last {
+    margin: 0 auto;
+    padding: 0;
+    margin-bottom: 20px;
+  }
+  .price-circle img {
+    width: 100px;
+  }
+  .price-circle {
+    margin-bottom: 20px;
+  }
+  .whats-new.hero h1:first-child,
+  .whats-new.hero h1:nth-child(2),
+  .whats-new.hero h1:last-child {
+    padding: 0;
+  }
+  .whats-new-recent .help-us .connector-block {
+    padding: 12px;
+  }
+  .whats-new-recent .help-us .connector-block p {
+    font-size: 24px;
+  }
+  .whats-new-recent .help-us .connector-block .icon {
+    width: 54px;
+    height: 54px;
+  }
+  .pricing-tabcontent .pricing-box .features-list {
+    margin-top: 40px;
+    flex-direction: column;
+  }
+  .pricing-tabcontent .pricing-box .features-list .functions {
+    width: 100%;
+  }
+  .pricing-tabcontent .pricing-box.growth .features-list .functions {
+    padding: 0;
+  }
+  .pricing-tabcontent .pricing-box .price h3 {
+    font-size: 38px;
+  }
+  .pricing-tabcontent .pricing-box {
+    background: #f0f7fd url("../img/price-box-bg-big.svg") no-repeat;
+    background-position: 0 -60px;
+    background-size: contain;
+  }
+  .fre-bar {
+    position: relative;
+    top: auto;
+    margin: 0 auto;
+    text-align: center;
+  }
+}
+
+@media (max-width: 767.98px) {
+}
+
+@media (max-width: 575.98px) {
+    .navbar-mobile > ul:first-child {
+        display: block;
+        position: absolute;
+        top: 55px;
+        right: 0px;
+        bottom: 0px;
+        left: 0px;
+        background-color: #fff;
+        overflow-y: auto;
+        transition: 0.3s;
+        padding: 0;
+        margin: 0;
+    }
+    .header.header-scrolled {
+        background-color: #fff;
+        padding: 0;
+    }
+        .header.header-scrolled > div {
+            border-radius: 0;
+            box-shadow: none;
+        }
+    .header {
+        background-color: #0a193a;
+        box-shadow: 0 4px 40px rgba(0, 0, 0, 0.08);
+    }
+    .home-page .header {
+        background-color: #fff;
+        box-shadow: 0 4px 40px rgba(0, 0, 0, 0.08);
+    }
+    .navbar-mobile .sub-menu {
+        margin-top: 0;
+    }
+    .navbar-mobile .nav-menu li > a h6 {
+        margin-bottom: 0;
+    }
+    .mega-content .list-group .list-block img {
+        width: 24px;
+        height: 24px;
+    }
+  .mega-content .list-group .list-block h6 {
+    font-size: 14px;
+  }
+  .mega-content .box-devider::before,
+  .mega-content .box-devider::after {
+    content: none;
+  }
+  .dropdown-menu.show {
+    border-radius: 0 0 10px 10px;
+  }
+  .mega-content .about-links a {
+    margin-bottom: 10px;
+    font-size: 14px;
+    padding: 0;
+  }
+  .mega-content h5,
+  .mega-content .about-links.centered div {
+    text-align: left;
+  }
+  .mega-content h5 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .inner-page .hero h1 {
+    font-size: 40px;
+    padding: 20px 0;
+    text-align: center;
+  }
+  .inner-page .hero::before,
+  .hero::before,
+  .inner-page .hero.whats-new::before {
+    background: url("../img/inner-page-bg-m.svg") no-repeat top center/auto;
+    background-position: -80px -70px;
+  }
+  .hero::before {
+    background: url("../img/inner-page-bg.svg") no-repeat top center / auto;
+    background-position: -350px 0;
+  }
+  .hero p {
+    font-size: 18px;
+  }
+    .home-page .hero p{
+        margin-bottom: 0;
+    }
+    .hero .hero-img {
+        margin-top: 40px;
+    }
+  .contact-intro .c-title,
+  .contact-intro .c-info {
+    margin-bottom: 20px;
+  }
+  .contact-intro .c-title,
+  .beta-onboarding .title {
+    font-size: 28px;
+  }
+  .contact-intro .c-info {
+    padding: 12px;
+    gap: 10px;
+  }
+  .contact-intro .c-info .details span {
+    font-size: 14px;
+    margin-bottom: 0;
+  }
+  .contact-intro .c-info .icon {
+    padding: 5px;
+  }
+  .contact-intro .c-info .details h6,
+  .feedback-intro p,
+  .beta-onboarding p {
+    font-size: 18px;
+  }
+  .contact-intro .c-info .icon img {
+    width: 42px;
+    height: 42px;
+    line-height: 42px;
+  }
+  .contact-CTA .CTA-block {
+    padding: 20px;
+  }
+  .contact-CTA .CTA-block h1,
+  .contact-CTA .CTA-block h1 a {
+    font-size: 22px;
+  }
+  section {
+    padding: 30px 0;
+  }
+  .launched-beta .beta-img,
+  .beta-onboarding .btn {
+    width: 100%;
+    min-width: 100%;
+  }
+  .launched-beta h5,
+  .feedback-fields form .col-form-label,
+  .beta-onboarding h5 {
+    font-size: 22px;
+  }
+  .beta-onboarding h5::after {
+    content: none;
+  }
+  .beta-onboarding .btn {
+    margin-bottom: 0;
+    padding: 15px 30px;
+    font-size: 25px;
+  }
+  .branding {
+    padding: 2rem 0;
+  }
+  .branding svg {
+    width: 100%;
+    height: 100%;
+  }
+  .pronunciation .pronunciation-block h2,
+  .pronunciation .pronunciation-hear h3 {
+    font-size: 28px;
+  }
+  .pronunciation .pronunciation-block h2 span::after {
+    content: none;
+  }
+    .pronunciation .pronunciation-hear {
+        flex-wrap: wrap;
+        gap: 30px;
+        justify-content: center;
+    }
+  .pronunciation .pronunciation-hear img {
+    width: 50%;
+  }
+    .pronunciation-hear > .btn {
+        padding: 0 16px 20px;
+    }
+    .pronunciation .pronunciation-hear .info {
+        margin-top: 0;
+        width: 100%;
+        flex: 0 0 auto;
+    }
+  .section-subtitle,
+  .feedback-qa .accordion-button {
+    font-size: 18px;
+  }
+  .whoarewe {
+    padding: 50px 0;
+  }
+  .whoarewe .left-content .first-block {
+    font-size: 20px;
+    margin-bottom: 40px;
+  }
+  .section-title,
+  .section-title-ralign {
+    font-size: 30px;
+  }
+  .our-values .value-block p {
+    margin-top: 5px;
+    margin-bottom: 40px;
+  }
+  .our-vision {
+    padding: 40px 0;
+  }
+  .feedback-fields form {
+    padding: 20px;
+  }
+  .feedback-fields .small-row .radio-control label {
+    font-size: 14px;
+  }
+  .feedback-fields .form-check-input {
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid;
+  }
+  .profile-type .title h1 {
+    font-size: 32px;
+  }
+  .profile-type .title p,
+  .fund-and-give.hero p.main,
+  .fund-and-give.hero p {
+    font-size: 22px;
+  }
+  .wwo-functionality .l-content h5 {
+    font-size: 25px;
+  }
+  .wwo-functionality .l-content p,
+  .wwo-functionality .main-points > li,
+  .wwo-features .content p,
+  .wwo-features .main-points > li {
+    font-size: 18px;
+  }
+  .wwo-functionality .l-content h5::before {
+    width: 56px;
+    height: 56px;
+    left: -10px;
+    top: -12px;
+  }
+  .pricing-tabcontent .pricing-box .price h3 {
+    font-size: 38px;
+  }
+  .pricing-tabcontent .pricing-box .features-list {
+    flex-direction: column;
+    margin-top: 60px;
+  }
+  .pricing-tabcontent .pricing-box .features-list .functions {
+    width: 100%;
+  }
+  .pricing-tabcontent .pricing-box {
+    max-width: 100%;
+    background-position: 0 -110px;
+  }
+  
+  .pricing-tabcontent .pricing-box .plan-name {
+    padding-top: 20px;
+  }
+  .contact-intro .c-info .details a,
+  .how-we-make .main-points li,
+  .beta-launch .main-points li,
+  .whats-new-recent .date span {
+    font-size: 20px;
+  }
+  .feedback-fields .small-row {
+    justify-content: space-evenly;
+  }
+  .inner-page .fund-and-give.hero::before {
+    background: #0a193a;
+  }
+  .fund-and-give-blocks .big-title {
+    font-size: 34px;
+    margin: 30px 0;
+  }
+  .fund-and-give-blocks .give-btn {
+    font-size: 24px;
+    min-height: auto;
+  }
+  .how-the-fund .section-title {
+    font-size: 32px;
+  }
+  .how-the-fund .first-block {
+    font-size: 30px;
+    margin-top: 20px;
+  }
+  .fund-vision .title {
+    font-size: 40px;
+    margin-bottom: 20px;
+  }
+  .fund-vision .contributes ul + img {
+    width: 60px;
+  }
+    .home-page .hero h1 {
+        font-size: 42px;
+        margin-top: 20px;
+    }
+  .home-page .hero .btn {
+    padding: 15px 30px;
+    font-size: 32px;
+  }
+  .site-features .title,
+  .inner-page .hero.what-we-offer h1 {
+    font-size: 40px;
+  }
+  .features-staking .f-card {
+    padding: 32px 8px;
+  }
+  .features-staking .wwo-features .featu-title.advocate::after,
+  .features-staking .wwo-features .featu-title.your-team::before {
+    content: none;
+  }
+  .features-staking .wwo-features .featu-title,
+  .features-staking .wwo-features .featu-title.your-team {
+    width: 100%;
+  }
+  .beta-launch h6,
+  .prices-members h6 {
+    font-size: 28px;
+  }
+
+  .help-us-CTA-block {
+    padding: 25px;
+  }
+  .help-us-CTA-block h1 {
+    font-size: 25px;
+  }
+  .help-us-CTA-block p{
+    font-size: 22px;
+  }
+  .pricing-container {
+    flex-wrap: wrap;
+  }
+  .pricing-nav {
+    margin-right: 0 !important;
+    width: 100%;
+  }
+  .fre-bar {
+    position: relative;
+    top: 0;
+  }
+  .pricing-tabcontent .pricing-box.growth .features-list .functions {
+    padding: 0;
+  }
+  .what-we-offer-sec1 .feature-block {
+    margin-bottom: 15px;
+  }
+  .wwo-functionality .title {
+    font-size: 28px;
+  }
+  .wwo-features .featu-title,
+  .wwo-features .featu-title img {
+    width: 100%;
+  }
+  .wwo-features .m-title {
+    font-size: 35px;
+  }
+  .whats-new.hero h1:first-child,
+  .whats-new.hero h1:nth-child(2),
+  .whats-new.hero h1:last-child {
+    padding: 0;
+  }
+  .whats-new-recent .help-us .connector-block {
+    padding: 12px;
+  }
+  .whats-new-recent .help-us .connector-block p {
+    font-size: 18px;
+  }
+  .whats-new-recent .section-title-lalign {
+    font-size: 30px;
+    text-align: left;
+  }
+  .hero.signup {
+    height: 100%;
+  }
+  .signup-page .header > .container-fluid,
+  .signup .signup-container {
+    width: 100%;
+    max-width: 100%;
+  }
+  .signup .signup-container {
+    box-shadow: none;
+    padding: 15px;
+  }
+  .hero.signup::before {
+    background: #0a193a;
+  }
+  .signup .title {
+    color: #ffffff;
+    font-size: 32px;
+    margin-bottom: 0;
+  }
+  .signup .left-info-selected {
+    margin-top: 0;
+  }
+  .signup-container .form-check {
+    text-align: left;
+  }
+  .hero.signup .container-fluid {
+    margin-top: 0;
+  }
+  .signup .left-info {
+    padding-top: 0;
+    display: none;
+  }
+  .signup-container .form-label,
+  .signup-container .form-check-label {
+    color: #ffffff;
+    text-align: left;
+  }
+  .signup-container form .btn {
+    background: #ffffff;
+    color: #0a193a;
+  }
+  .signup-container .frequency-selection .nav-link {
+    padding: 8px 0;
+  }
+  .inner-page .hero,
+  .inner-page .hero.whats-new {
+    height: 300px;
+  }
+    .inner-page .hero.what-we-offer,
+    .inner-page .hero.beta,
+    .inner-page .hero.fund-and-give {
+        height: auto;
+    }
+  .inner-page .hero,
+  .home-page .hero {
+    padding-top: 60px;
+  }
+  .header.header-scrolled .dropdown-menu.show {
+    border-radius: 0;
+    max-width: 100%;
+    top: 0;
+  }
+  .footer-info > img {
+    display: none;
+  }
+  .copyright .btn {
+    width: 100%;
+    margin-bottom: 20px;
+  }
+  .pricing-section {
+    position: inherit;
+    z-index: inherit;
+  }
+    .wwo-features .content span.sub {
+        font-size: 14px;
+        padding: 3px 16px;
+    }
+    .features-staking .wwo-features .main-points > li {
+        margin: 5px 0;
+        padding-left: 30px;
+    }
+    .features-staking .wwo-features .main-points > li::before {
+        top: -5px;
+        left: -10px;
+        background-size: 100%;
+        width: 40px;
+        height: 40px;
+    }
+    .features-staking .wwo-features, .features-staking .wwo-features .container, .features-staking .wwo-features .row{
+        height: auto;
+    }
+    .features-staking .f-card {
+        border-radius: 42px;
+    }
+    .txt-underline img {
+        bottom: -2px;
+    }
+    .section-title-ralign::after{
+        content: none;
+    }
+    .section-title-ralign::before, .section-title-lalign::before {
+        left: -10px;
+    }
+    .pricing-tabcontent .pricing-box .features-list .title{
+        margin-bottom: 0;
+    }
+    .pricing-tabcontent .pricing-box, .pricing-tabcontent .pricing-box.no-saving {
+        background-position: -230px -515px;
+        background-size: cover;
+    }
+        .pricing-tabcontent .pricing-box.growth {
+            background: url("../img/price-box-bg.svg") no-repeat #f0f7fd;
+            background-position: -290px -302px;
+            background-size: cover;
+        }
+            .pricing-tabcontent .pricing-box.growth.no-saving {
+                background-position: -260px -314px;
+            }
+}
+
+@media only screen and (min-height: 932px) and (orientation: portrait) {
+    .pricing-tabcontent .pricing-box.growth {
+        background: url(../img/price-box-bg.svg) no-repeat #f0f7fd;
+        background-position: -280px -282px;
+        background-size: cover;
+    }
+        .pricing-tabcontent .pricing-box.growth.no-saving {
+            background-position: -240px -298px;
+        }
+}
